@@ -1,17 +1,28 @@
 'use client'
 
 import Cover from "@/components/Cover";
+import data from "@/lib/data";
 
 export default function Overview() {
     return (
         <>
             <Cover />
-            <div className="relative flex items-center justify-center gap-16 px-8 py-16">
-                <div className="w-full text-center mb-7">
-                    {/* <h3 className="mt-3.5 text-3xl font-bold text-blue-500">Overview</h3>
-                    <p className="xl:w-2/3 mt-3.5 mx-auto font-medium">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> */}
+            <div className="relative px-48 py-16">
+                <div className="grid grid-cols-2 gap-8">
+                    {data.map((item, index) => (
+                        <Item key={index} {...item} />
+                    ))}
                 </div>
             </div>
         </>
     );
+}
+
+function Item ({ title, desc, href }) {
+    return (
+        <a href={href} className="bg-[#251b54] text-white rounded-2xl shadow-2xl hover:bg-[#181136] p-8 space-y-3">
+            <h3 className="font-bold text-center text-xl">{title}</h3>
+            <p>{desc}</p>
+        </a>
+    )
 }
