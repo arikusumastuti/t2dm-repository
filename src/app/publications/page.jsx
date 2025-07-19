@@ -82,7 +82,10 @@ export default function Publications () {
 
     return (
         <>
-            <Cover title={"Publications"} desc={"Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem."} />
+            <Cover 
+                title={"Publications"} 
+                desc={"Published works for each part of the repository"} 
+            />
             <div className="relative px-8 xl:px-16 py-16">
                 <MaterialReactTable table={table} />
             </div>

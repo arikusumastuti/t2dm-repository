@@ -6,7 +6,10 @@ import { data } from "@/lib/data";
 export default function Home() {
     return (
         <>
-            <Cover title={"T2DM Repository"} desc={"Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem."} />
+            <Cover 
+                title={"T2DM Repository"} 
+                desc={"This repository contains data and documentation for T2DM analysis, including PPI, metabolic networks, and features for patient classification"} 
+            />
             <div className="relative px-8 md:px-16 xl:px-48 py-16">
                 <div className="grid sm:grid-cols-2 gap-8">
                     {data.map((item, index) => (

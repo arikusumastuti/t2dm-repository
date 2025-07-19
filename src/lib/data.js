@@ -1,13 +1,13 @@
 const data = [
     {
         title: "PPI & Metabolic Networks Diabetic Repository",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, atque consequatur. Quasi commodi laborum, animi nobis dolorem ratione modi unde!",
+        desc: "Model of Protein-Protein Interactions (PPI) and Metabolic Networks formatted in system of biological markup language.",
         icon: null,
         href: "https://ppi-and-metabolic-networks-diabetic.biomath.work/"
     },
     {
         title: "Metabolic Networks Features",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, atque consequatur. Quasi commodi laborum, animi nobis dolorem ratione modi unde!",
+        desc: "Including all features of T2DM extracted from GTEx patient data and specific tissues (T2DM & Liver - Pancreas).",
         icon: null,
         href: "https://metabolic-networks-features.biomath.work/"
     },
@@ -17,7 +17,7 @@ const headerMenu = [
     {
         name: "About",
         icon: null,
-        href: "/"
+        href: "/about"
     },
     {
         name: "Publications",
