@@ -6,7 +6,7 @@ export default function Logo ({ className="" }) {
     return (
         <Link href="/" className={`flex items-center gap-2 ${className}`}>
             <Image src={icon} alt="logo" className="h-8 w-8" />
-            <span className="font-bold">T2DM Repository</span>
+            <span className="font-bold">DiabMet Repository</span>
         </Link>
     )
 }

@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <>
             <Cover 
-                title={"T2DM Repository"} 
+                title={"DiabMet Repository"} 
                 desc={"This repository contains data and documentation for T2DM analysis, including PPI, metabolic networks, and features for patient classification"} 
             />
             <div className="relative px-8 md:px-16 xl:px-48 py-16">
